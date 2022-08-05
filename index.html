@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Pokémon Slider - MapaDev Week</title>
+
+    <link rel="shortcut icon" href="src/imagens/pokebola.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="SRC\imagens\pokebola.png" alt="pokébola">   
+        <h1>MapaDev Week</h1>
+    </header>
+
+    <main>
+        <button class="btn-seta btn-voltar" id="btnVoltar">
+            <img src="SRC\imagens\seta.png" alt="seta voltar">
+        </button>
+
+        <ul>
+            <li class="cartao selecionado fundo-1">
+                <div class="infos">
+                    <h2 class="nome">Pikachu</h2>
+                    <p class="vida">HP 300</p>
+                </div>   
+                
+                <div class="img">
+                    <img src="SRC\imagens\pikachu.png" alt="Pikachu">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto"> 
+                        Pikachu is a short, chubby rodent Pokémon. Each cheek is a red circle that contains a pouch for electricity storage. At the base of its lightning bolt-shaped tail is a patch of brown fur. A female will have a V-shaped notch at the end of its tail, which looks like the top of a heart. It is classified as a quadruped, but it has been known to stand and walk on its hind legs.
+                    </p>
+                </div>
+            </li> 
+            <li class="cartao fundo-2">
+                <div class="infos">
+                    <h2 class="nome">Charizard</h2>
+                    <p class="vida">HP 800</p>
+                </div>   
+                
+                <div class="img">
+                    <img src="SRC\imagens\charizard.png" alt="Charizard">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto"> 
+                        Charizard flies in search of powerful opponents to battle, and its fire will burn hotter as it gains experience. Its fiery breath is capable of melting boulders, massive glaciers, and has been known to accidentally cause forest fires. Though its fiery breath is hot, it never turns it on any opponent weaker than itself. Charizard typically inhabits mountains and valleys.
+                    </p>
+                </div>
+            </li>
+            <li class="cartao fundo-3">
+                <div class="infos">
+                    <h2 class="nome">Mewtwo</h2>
+                    <p class="vida">HP 1200</p>
+                </div>   
+                
+                <div class="img">
+                    <img src="SRC\imagens\mewtwo.png" alt="Mewtwo">
+                </div>
+                
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto"> 
+                        Mewtwo is an artificial Pokémon created after years of horrific gene splicing and DNA engineering experiments based on Mew. It is said to have the most savage heart among all Pokémon, lacking compassion and striking fear into its enemy with cold, glowing eyes. Because it was engineered to be the ultimate opponent in battle, it can only think of defeating its foes.
+                    </p>
+                </div>
+            </li>       
+        </ul>
+        
+        <button class="btn-seta" id="btnAvancar">
+            <img src="SRC\imagens\seta.png" alt="seta avançar">
+        </button>
+    </main>            
+
+    <script src="src/js/index.js">    </script>
+</body>
+</html>
