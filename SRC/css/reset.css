@@ -1,0 +1,9 @@
+* {
+   margin: 0; /*Não quero as margens que vc colocou*/
+   padding: 0; /*Espaçamento entre elementos*/
+   box-sizing: border-box; /*Considera a borda a partir do final da imagem e vai somando o margin e o padding (facilita)*/
+}
+
+ul {
+    list-style: none; /* tirar as bolinhas que marcam uma lista, pois, neste caso, não queremos*/
+}
