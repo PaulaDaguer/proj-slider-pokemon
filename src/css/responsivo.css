@@ -18,13 +18,13 @@
         display: flex;
         align-items: center;
         justify-items: center;
+        gap: 10px;
     }
 
     .cartao .img {
         max-height: 230px;
         display: flex;
         justify-content: center;
-        gap: 10px;
     }
 
     .cartao .infos .nome {
