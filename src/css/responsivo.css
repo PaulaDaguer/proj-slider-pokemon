@@ -2,7 +2,7 @@
     main {
         padding: 10 15px;
         gap: 30px;
-        margin-right: 10px;
+        justify-content: 10px;
     }
 
     .btn-seta {
@@ -16,8 +16,8 @@
     }
 
     .selecionado .img {
-        max-height: 100px;
-        max-width: 80px;
+        height: 80%;
+        width: 80%;
         display: flex;
         justify-content: center;
     }
