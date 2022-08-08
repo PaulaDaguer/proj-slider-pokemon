@@ -20,11 +20,6 @@
         justify-content: center;
     }
 
-    .cartao {
-        display: flex;
-        justify-content: center;
-    }
-
     .cartao .img {
         max-height: 230px;
         display: flex;
