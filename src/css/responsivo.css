@@ -2,6 +2,8 @@
     main {
         padding: 10 15px;
         gap: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .btn-seta {
@@ -19,10 +21,11 @@
     }
 
     .selecionado .img {
-        height: 200px;
-        width: 180px;
+        height: 280px;
+        width: 130px;
         display: flex;
         align-items: center;
+        justify-content: center;
     }
 
     .cartao .infos .nome {
