@@ -1,7 +1,7 @@
 @media (max-width: 620px) { /*620 é um valor que o programa já fica desconfigurado*/
     main {
         padding: 10 15px;
-        gap: 15px;
+        gap: 30px;
     }
 
     .btn-seta {
@@ -24,7 +24,7 @@
 
     .cartao .img {
         max-height: 230px;
-        max-width: 230px;
+        max-width: 200px;
         display: flex;
         justify-content: center;
     }
