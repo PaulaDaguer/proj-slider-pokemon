@@ -17,19 +17,19 @@
         align-items: center;
     }
 
-    .img {
+    .selecionado .img {
         size: 60%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .cartao .infos .nome {
+    .selecionado .infos .nome {
         max-width: 70%;
         font-size: 18px;
     }
 
-    .cartao .infos .vida {
+    .selecionado .infos .vida {
         font-size: 14px;
     }
 }
