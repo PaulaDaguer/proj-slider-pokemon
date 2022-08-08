@@ -17,6 +17,12 @@
         align-items: center;
     }
 
+    .selecionado {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .selecionado .img {
         size: 60%;
         display: flex;
