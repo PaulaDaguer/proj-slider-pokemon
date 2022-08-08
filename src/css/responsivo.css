@@ -15,16 +15,12 @@
         gap: 1px;
         display: flex;
         align-items: center;
-        justify-content: center;
-    }
-
-    .cartao {
-        height: 85%;
+        justify-content: space-between;
     }
 
     .selecionado .img {
-        height: 280px;
-        width: 130px;
+        height: 230px;
+        width: 90px;
         display: flex;
         align-items: center;
         justify-content: center;
