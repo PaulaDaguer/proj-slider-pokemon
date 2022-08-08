@@ -19,6 +19,11 @@
         justify-content: center;
     }
 
+    .cartão {
+        display: flex;
+        justify-items: center;
+    }
+
     .cartao .img {
         max-height: 230px;
         display: flex;
