@@ -2,7 +2,6 @@
     main {
         padding: 10 15px;
         gap: 30px;
-        justify-content: 10px;
     }
 
     .btn-seta {
@@ -16,10 +15,9 @@
     }
 
     .selecionado .img {
-        height: 80%;
+        height: 100%;
         width: 80%;
         display: flex;
-        justify-content: center;
     }
 
     .cartao .infos .nome {
