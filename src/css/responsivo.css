@@ -27,11 +27,11 @@
     }
 
     .cartao .infos .nome {
-        max-width: 50%;
+        max-width: 70%;
         font-size: 18px;
     }
 
     .cartao .infos .vida {
-        font-size: 14px;
+        font-size: 15px;
     }
 }
