@@ -2,8 +2,6 @@
     body {
         padding: 0 15px;
         gap: 10px;
-        display: flex;
-        justify-content: space-between;
     }
 
     .btn-seta {
