@@ -33,7 +33,7 @@
 
     .div .infos {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .selecionado .infos .nome {
