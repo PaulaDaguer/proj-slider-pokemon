@@ -6,6 +6,7 @@
         margin-right: 10px;
         display: flex;
         align-items: center;
+        justify-content: center;
     }
 
     .btn-seta {
@@ -15,7 +16,6 @@
         gap: 1px;
         display: flex;
         align-items: center;
-        justify-content: center;
     }
 
     .selecionado {
