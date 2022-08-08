@@ -26,7 +26,7 @@
         justify-content: center;
     }
 
-    .selecionado .img {
+    .img {
         height: 230px;
         width: 90px;
         display: flex;
