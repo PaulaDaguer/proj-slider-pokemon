@@ -24,6 +24,7 @@
         max-height: 230px;
         display: flex;
         justify-content: center;
+        gap: 10px;
     }
 
     .cartao .infos .nome {
