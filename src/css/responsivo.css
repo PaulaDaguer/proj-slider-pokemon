@@ -9,13 +9,17 @@
         height: 15px;
         padding: 15px;
         gap: 1px;
-      
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .selecionado .img {
         height: 200px;
         width: 180px;
         display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .cartao .infos .nome {
