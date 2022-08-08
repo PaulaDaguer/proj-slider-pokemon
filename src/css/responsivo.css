@@ -21,9 +21,8 @@
 
     .selecionado .img {
         size: 60%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        padding: 40px;
+        
     }
 
     .div .infos {
