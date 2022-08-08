@@ -1,5 +1,5 @@
 @media (max-width: 620px) { /*620 é um valor que o programa já fica desconfigurado*/
-    body {
+    main {
         padding: 0 15px;
         gap: 10px;
     }
@@ -13,7 +13,7 @@
         align-items: center;
     }
 
-    main {
+    ul {
         height: 480px;
         padding: 20px;
         display: flex;
