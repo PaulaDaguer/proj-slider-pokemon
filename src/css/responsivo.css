@@ -10,10 +10,9 @@
     }
 
     .btn-seta {
-        width: 20px;
-        height: 20px;
-        padding: 20px;
-        gap: 1px;
+        width: 40px;
+        height: 40px;
+        padding: 40px;
         display: flex;
         align-items: center;
         justify-content: center;
