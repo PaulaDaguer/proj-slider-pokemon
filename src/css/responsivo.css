@@ -1,7 +1,6 @@
 @media (max-width: 620px) { /*620 é um valor que o programa já fica desconfigurado*/
     body {
-        padding: 0 15px;
-        gap: 10px;
+        padding: 0 10px;
     }
 
     .btn-seta {
@@ -15,8 +14,8 @@
 
     main {
         height: 480px;
-        padding: 20px;
         display: flex;
+        align-items: center;
         justify-content: center;
     }
 
