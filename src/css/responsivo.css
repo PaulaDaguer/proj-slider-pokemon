@@ -6,7 +6,7 @@
         margin-right: 10px;
         display: flex;
         align-items: center;
-        justify-content: baseline;
+        justify-content: center;
     }
 
     .btn-seta {
@@ -23,11 +23,6 @@
         size: 60%;
         padding: 40px;
         
-    }
-
-    .div .infos {
-        display: flex;
-        justify-content: space-between;
     }
 
     .selecionado .infos .nome {
